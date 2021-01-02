@@ -22,22 +22,67 @@ namespace QLST
 
         public static void TaoDSDongVat()
         {
+            dv.Add(new DongVat("ten", "madv", "maldv"));
+            dv.Add(new DongVat("ten", "madv", "maldv"));
+            dv.Add(new DongVat("ten", "madv", "maldv"));
+            dv.Add(new DongVat("ten", "madv", "maldv"));
+            dv.Add(new DongVat("ten", "madv", "maldv"));
+            dv.Add(new DongVat("ten", "madv", "maldv"));
+            dv.Add(new DongVat("ten", "madv", "maldv"));
+            dv.Add(new DongVat("ten", "madv", "maldv"));
+            dv.Add(new DongVat("ten", "madv", "maldv"));
+            dv.Add(new DongVat("ten", "madv", "maldv"));
+            dv.Add(new DongVat("ten", "madv", "maldv"));
+            dv.Add(new DongVat("ten", "madv", "maldv"));
+            dv.Add(new DongVat("ten", "madv", "maldv"));
+            dv.Add(new DongVat("ten", "madv", "maldv"));
         }
 
         public static void TaoDSLoaiDongVat()
         {
+            ldv.Add(new LoaiDongVat("ten", "maldv"));
+            ldv.Add(new LoaiDongVat("ten", "maldv"));
+            ldv.Add(new LoaiDongVat("ten", "maldv"));
+            ldv.Add(new LoaiDongVat("ten", "maldv"));
+            ldv.Add(new LoaiDongVat("ten", "maldv"));
+            ldv.Add(new LoaiDongVat("ten", "maldv"));
+            ldv.Add(new LoaiDongVat("ten", "maldv"));
+            ldv.Add(new LoaiDongVat("ten", "maldv"));
+            ldv.Add(new LoaiDongVat("ten", "maldv"));
+            ldv.Add(new LoaiDongVat("ten", "maldv"));
+            ldv.Add(new LoaiDongVat("ten", "maldv"));
+            ldv.Add(new LoaiDongVat("ten", "maldv"));
+            ldv.Add(new LoaiDongVat("ten", "maldv"));
+            ldv.Add(new LoaiDongVat("ten", "maldv"));
         }
 
         public static void TaoDSChuongNuoi()
         {
+            cn.Add(new ChuongNuoi("", "", ""));
+            cn.Add(new ChuongNuoi("", "", ""));
+            cn.Add(new ChuongNuoi("", "", ""));
+            cn.Add(new ChuongNuoi("", "", ""));
+            cn.Add(new ChuongNuoi("", "", ""));
+            cn.Add(new ChuongNuoi("", "", ""));
+            cn.Add(new ChuongNuoi("", "", ""));
+            cn.Add(new ChuongNuoi("", "", ""));
+            cn.Add(new ChuongNuoi("", "", ""));
+            cn.Add(new ChuongNuoi("", "", ""));
+            cn.Add(new ChuongNuoi("", "", ""));
+            cn.Add(new ChuongNuoi("", "", ""));
+            cn.Add(new ChuongNuoi("", "", ""));
+            cn.Add(new ChuongNuoi("", "", ""));
         }
 
         public static void TaoDSDVChuongNuoi()
         {
-        }
-
-        public static void TaoDSKhauPhan()
-        {
+            dvcn.Add(new DVChuongNuoi("", "", date, "2 tháng"));
+            dvcn.Add(new DVChuongNuoi("", "", date, "4 tháng"));
+            dvcn.Add(new DVChuongNuoi("", "", date, "6 tháng"));
+            dvcn.Add(new DVChuongNuoi("", "", date, "8 tháng"));
+            dvcn.Add(new DVChuongNuoi("", "", date, "12 tháng"));
+            dvcn.Add(new DVChuongNuoi("", "", date, "24 tháng"));
+            dvcn.Add(new DVChuongNuoi("", "", date, "36 tháng"));
         }
 
         public static void TaoDSPhongBan()
