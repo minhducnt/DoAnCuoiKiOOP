@@ -9,13 +9,11 @@ namespace QLST
     public class ChuongNuoi
     {
         public string MaChuong { get; set; }
-        public string LoaiChuong { get; set; }
         public string MaDongVat { get; set; }
 
-        public ChuongNuoi(string MaChuong, string LoaiChuong, string MaDongVat)
+        public ChuongNuoi(string MaChuong, string MaDongVat)
         {
             this.MaChuong = MaChuong;
-            this.LoaiChuong = LoaiChuong;
             this.MaDongVat = MaDongVat;
         }
 
@@ -24,7 +22,6 @@ namespace QLST
             if (CN != null)
             {
                 this.MaChuong = CN.MaChuong;
-                this.LoaiChuong = CN.LoaiChuong;
                 this.MaDongVat = CN.MaDongVat;
             }
         }

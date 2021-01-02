@@ -1,9 +1,7 @@
 C:\Users\TG\Desktop\Đồ án oop\Quản lý sở thú\QLST\QLST\obj\Debug\QLST.csprojAssemblyReference.cache
 C:\Users\TG\Desktop\Đồ án oop\Quản lý sở thú\QLST\QLST\obj\Debug\QLST.csproj.CoreCompileInputs.cache
-C:\Users\Minh Hoang\Downloads\drive-download-20210102T023644Z-001\QLST\bin\Debug\QLST.exe.config
-C:\Users\Minh Hoang\Downloads\drive-download-20210102T023644Z-001\QLST\bin\Debug\QLST.exe
-C:\Users\Minh Hoang\Downloads\drive-download-20210102T023644Z-001\QLST\bin\Debug\QLST.pdb
-C:\Users\Minh Hoang\Downloads\drive-download-20210102T023644Z-001\QLST\obj\Debug\QLST.csprojAssemblyReference.cache
-C:\Users\Minh Hoang\Downloads\drive-download-20210102T023644Z-001\QLST\obj\Debug\QLST.csproj.CoreCompileInputs.cache
-C:\Users\Minh Hoang\Downloads\drive-download-20210102T023644Z-001\QLST\obj\Debug\QLST.exe
-C:\Users\Minh Hoang\Downloads\drive-download-20210102T023644Z-001\QLST\obj\Debug\QLST.pdb
+C:\Users\TG\Desktop\Đồ án oop\Quản lý sở thú\QLST\QLST\bin\Debug\QLST.exe.config
+C:\Users\TG\Desktop\Đồ án oop\Quản lý sở thú\QLST\QLST\bin\Debug\QLST.exe
+C:\Users\TG\Desktop\Đồ án oop\Quản lý sở thú\QLST\QLST\bin\Debug\QLST.pdb
+C:\Users\TG\Desktop\Đồ án oop\Quản lý sở thú\QLST\QLST\obj\Debug\QLST.exe
+C:\Users\TG\Desktop\Đồ án oop\Quản lý sở thú\QLST\QLST\obj\Debug\QLST.pdb

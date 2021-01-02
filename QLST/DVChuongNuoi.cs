@@ -8,12 +8,12 @@ namespace QLST
 {
     public class DVChuongNuoi
     {
-        public string MaDongVat { get; set; }
-        public string NgayVaoChuong { get; set; }
         public string MaChuong { get; set; }
+        public string MaDongVat { get; set; }
+        public RandomDate NgayVaoChuong { get; set; }
         public string TGRaChuong { get; set; }
 
-        public DVChuongNuoi(string MaDongVat, string MaChuong, string NgayVaoChuong, string TGRaChuong)
+        public DVChuongNuoi(string MaDongVat, string MaChuong, RandomDate NgayVaoChuong, string TGRaChuong)
         {
             this.MaDongVat = MaDongVat;
             this.MaChuong = MaChuong;

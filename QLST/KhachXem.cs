@@ -8,15 +8,15 @@ namespace QLST
 {
     public class KhachXem
     {
+        public string TenKhach { get; set; }
         public string MaKhach { get; set; }
-        public string tenkhach { get; set; }
         public string MaVe { get; set; }
-        public string NgayVaoXem { get; set; }
+        public RandomDate NgayVaoXem { get; set; }
 
-        public KhachXem(string MaKhach,string tenkhach, string MaVe, string NgayVaoXem)
+        public KhachXem(string TenKhach, string MaKhach, string MaVe, RandomDate NgayVaoXem)
         {
+            this.TenKhach = TenKhach;
             this.MaKhach = MaKhach;
-            this.tenkhach = tenkhach;
             this.MaVe = MaVe;
             this.NgayVaoXem = NgayVaoXem;
         }
@@ -25,8 +25,8 @@ namespace QLST
         {
             if (KX != null)
             {
+                this.TenKhach = KX.TenKhach;
                 this.MaKhach = KX.MaKhach;
-                this.tenkhach = KX.tenkhach;
                 this.MaVe = KX.MaVe;
                 this.NgayVaoXem = KX.NgayVaoXem;
             }

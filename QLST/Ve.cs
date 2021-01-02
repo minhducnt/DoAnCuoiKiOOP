@@ -11,9 +11,9 @@ namespace QLST
         public string MaVe { get; set; }
         public string MaKhach { get; set; }
         public string MaNhanVienBanVe { get; set; }
-        public string NgayBan { get; set; }
+        public RandomDate NgayBan { get; set; }
 
-        public Ve(string MaVe, string MaKhach, string MaNhanVienBanVe, string NgayBan)
+        public Ve(string MaVe, string MaKhach, string MaNhanVienBanVe, RandomDate NgayBan)
         {
             this.MaVe = MaVe;
             this.MaKhach = MaKhach;

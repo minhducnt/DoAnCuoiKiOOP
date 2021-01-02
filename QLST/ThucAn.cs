@@ -11,18 +11,18 @@ namespace QLST
         public string TenThucAn { get; set; }
         public string MaThucAn { get; set; }
 
-        public ThucAn(string TenThucAn, string MaThucAn)
+        public ThucAn(string MaThucAn, string TenThucAn)
         {
-            this.TenThucAn = TenThucAn;
             this.MaThucAn = MaThucAn;
+            this.TenThucAn = TenThucAn;
         }
 
         public ThucAn(ThucAn TA)
         {
             if (TA != null)
             {
-                this.TenThucAn = TA.TenThucAn;
                 this.MaThucAn = TA.MaThucAn;
+                this.TenThucAn = TA.TenThucAn;
             }
         }
     }

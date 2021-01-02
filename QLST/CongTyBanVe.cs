@@ -11,13 +11,15 @@ namespace QLST
         public string MaCongTy { get; set; }
         public string TenCongTy { get; set; }
         public int SoLuongVeMua { get; set; }
-        public string NgayMua { get; set; }
+        public int SoLuongVeBan { get; set; }
+        public RandomDate NgayMua { get; set; }
 
-        public CongTyBanVe(string MaCongTy, string TenCongTy, int SoLuongVeMua, string NgayMua)
+        public CongTyBanVe(string MaCongTy, string TenCongTy, int SoLuongVeMua, int SoLuongVeBan, RandomDate NgayMua)
         {
             this.MaCongTy = MaCongTy;
             this.TenCongTy = TenCongTy;
             this.SoLuongVeMua = SoLuongVeMua;
+            this.SoLuongVeBan = SoLuongVeBan;
             this.NgayMua = NgayMua;
         }
 
@@ -28,6 +30,7 @@ namespace QLST
                 this.MaCongTy = CTY.MaCongTy;
                 this.TenCongTy = CTY.TenCongTy;
                 this.SoLuongVeMua = CTY.SoLuongVeMua;
+                this.SoLuongVeBan = CTY.SoLuongVeBan;
                 this.NgayMua = CTY.NgayMua;
             }
         }
